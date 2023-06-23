@@ -1,0 +1,102 @@
+
+body {
+  margin: 100px;
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Fraunces', serif;
+}
+
+img {
+  border-radius: 10px 0px 0px 10px;
+  width: 300px;
+  height: 410px;
+  
+}
+
+.card {
+  width: 580px;
+  height: 410px;
+  font-size: 14px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.contents {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 35px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.product-type {
+  color: rgb(123, 123, 134);
+  font-family: 'Montserrat', sans-serif;
+  font-size: smaller;
+  letter-spacing: 5px;
+}
+
+.product-title {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.description {
+  color: rgb(123, 123, 134);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.old-price {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-small;
+  display: inline-block;
+  text-decoration: line-through;  
+  vertical-align: middle;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 29%);
+  color: hsl(30, 38%, 92%);
+  cursor: pointer;
+}
+
+.icon {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.attribution {
+  font-family: 'Montserrat';
+}
